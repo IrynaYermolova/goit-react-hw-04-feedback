@@ -1,0 +1,27 @@
+.container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.feedbackBtn {
+  color: #090909;
+  outline: none;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 40px;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  text-transform: capitalize;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+  cursor: pointer;
+}
+
+.feedbackBtn:active {
+  color: #656565;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}

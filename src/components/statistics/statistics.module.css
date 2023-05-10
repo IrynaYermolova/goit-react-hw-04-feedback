@@ -1,0 +1,16 @@
+.statisticContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 800px;
+  padding: 0;
+  margin: auto;
+  color: #090909;
+  list-style: none;
+}
+
+.statistic {
+  font-size: 25px;
+  font-weight: 300px;
+}
